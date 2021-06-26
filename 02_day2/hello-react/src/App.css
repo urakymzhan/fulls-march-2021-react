@@ -1,3 +1,8 @@
 .container {
   text-align: center;
 }
+
+.counter {
+  padding: 20px;
+  background:lightgray;
+}
