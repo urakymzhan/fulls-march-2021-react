@@ -1,6 +1,11 @@
 // class component
 import {Component} from 'react';
 
+// styling in js
+const style = {
+    border: "1px solid red"
+}
+
 class Counter extends Component {
     constructor() {
         super();
@@ -19,7 +24,7 @@ class Counter extends Component {
     }
     render() {
         return (
-            <div className="counter">
+            <div className="counter" style={style}>
                 <button onClick={this.handleClickArrow}>Increase</button>
                 <p>{this.state.count}</p>
             </div>
