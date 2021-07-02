@@ -20,3 +20,7 @@ export default function useCount() {
 
     return { count, setCount} ;
 }
+
+// App.js => props.name => Child.js // other name, last, email
+    // Child.js => props.name
+        // function useCallback(showName() { ... }, [props.name]) // dependency
