@@ -1,15 +1,15 @@
 import "./App.css";
 import {
   BrowserRouter as Router,
-  // HashRouter,
+  // HashRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import Nav from "./Nav";
-import AllStudents from './AllStudents';
-import StudentDetails from './StudentDetails';
+import AllStudents from "./AllStudents";
+import StudentDetails from "./StudentDetails";
 
 function App() {
   return (
