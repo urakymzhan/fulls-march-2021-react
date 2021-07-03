@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 .App-header {
   background-color: #282c34;
@@ -11,6 +12,11 @@
   color: white;
 }
 
+.multiple {
+  background: #282c34;
+  color: #fff;
+  padding: 20px;
+}
 form {
   padding: 20px;
   width: 400px;

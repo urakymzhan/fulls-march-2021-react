@@ -40,31 +40,33 @@ function MultipHandling() {
   const [acceptedAgreement, setAcceptedAgreement] = useState(false);
   const handleAcceptAgreement = (e) => {
     console.log(e.target.checked);
-      setAcceptedAgreement((acceptedAgreement) => !acceptedAgreement);
+    setAcceptedAgreement((acceptedAgreement) => !acceptedAgreement);
     // setAcceptedAgreement(!e.target.checked);
   };
 
   const handleSubmit = (e) => {
-      e.preventDefault();
-    //   simple validation
-    if (values.fname === '') {
-        alert("Please type name!");
+    e.preventDefault();
+    //  simple validation
+    if (values.fname === "") {
+      alert("Please type name!");
     } else if (acceptedAgreement === false) {
-        alert("Accept our agreement!");
+      alert("Accept our agreement!");
     } else {
-        alert("Form Submitted");
+      alert("Form Submitted");
     }
   };
 
   return (
-    <div className="App">
+    <div className="App multiple">
+      <p>MULTIPLE HANDLING EXAMPLE</p>
+      <p>------------------------------------------------</p>
       <form onSubmit={handleSubmit}>
         <input
           name="fname"
           type="text"
           placeholder="Name"
           onChange={handleValues}
-          value={values.fname} 
+          value={values.fname}
         />
         <input
           name="lastname"
@@ -95,7 +97,8 @@ function MultipHandling() {
           type="checkbox"
         />
 
-        <input type="submit" value="Submit" />
+        {/* <input type="submit" value="Submit" /> */}
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
