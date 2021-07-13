@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+
+}
+.counter {
+    border: 1px solid #333;
+    padding: 40px;
+}
