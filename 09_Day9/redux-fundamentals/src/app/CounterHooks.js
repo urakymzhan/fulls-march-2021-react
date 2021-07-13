@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement } from "./store";
+import { increment, decrement } from "./actions";
 
 export default function Counter() {
   // map state
