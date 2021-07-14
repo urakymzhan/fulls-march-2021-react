@@ -1,0 +1,22 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "A",
+      "type": "dog",
+      "imageUrl": "https://actiontermitecontrol.com/wp-content/uploads/2020/01/certified-k9-bud-bug-inspection.jpg"
+    },
+    {
+      "id": 2,
+      "name": "B",
+      "type": "dog",
+      "imageUrl": "https://actiontermitecontrol.com/wp-content/uploads/2020/01/certified-k9-bud-bug-inspection.jpg"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "type": "dog",
+      "imageUrl": "https://actiontermitecontrol.com/wp-content/uploads/2020/01/certified-k9-bud-bug-inspection.jpg"
+    }
+  ]
+}
